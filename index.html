@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__body">
+          <a href="/" class="header__logo">Adriana</a>
+          <div class="header__burger visually-hidden">
+            <span></span>
+          </div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#hero" class="header__link header__link--active"
+                  >Home</a
+                >
+              </li>
+              <li class="header__item">
+                <a href="#about" class="header__link">About</a>
+              </li>
+              <li class="header__item">
+                <a href="#education" class="header__link">Education</a>
+              </li>
+              <li class="header__item">
+                <a href="#skills" class="header__link">Skills</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <h1 class="hero__title">Adriana Zinko</h1>
+        <div class="hero__img">
+          <img src="images/person.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="title">About me</h2>
+        <div class="about__info info">
+          <div class="info__item info__item--name">
+            <div class="info__name">Name:</div>
+            <div class="info__text">Zinko Adriana</div>
+          </div>
+
+          <div class="info__item info__item--birthday">
+            <div class="info__name">Birthday:</div>
+            <div class="info__text">2 April 2000</div>
+          </div>
+          <div class="info__item info__item--email">
+            <div class="info__name">Email:</div>
+            <div class="info__text">
+              <a href="mailto:zinkoadriana@gmail.com">zinkoadriana@gmail.com</a>
+            </div>
+          </div>
+          <div class="info__item info__item--phone">
+            <div class="info__name">Phone:</div>
+            <div class="info__text">
+              <a href="tel:+380999260184">099 926 0184</a>
+            </div>
+          </div>
+          <div class="info__item info__item--town">
+            <div class="info__name">Town:</div>
+            <div class="info__text">Ivano-Frankivsk</div>
+          </div>
+          <div class="info__item info__item--telegram">
+            <div class="info__name">Telegram:</div>
+            <div class="info__text">
+              <a href="https://t.me/adriana4444">@Adriana4444</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education section" id="education">
+      <div class="container">
+        <h2 class="title">Education</h2>
+        <div class="education__tabs tabs">
+          <div class="tabs__triggers">
+            <a href="#tab-1" class="tabs__triggers-item">College </a>
+            <a href="#tab-2" class="tabs__triggers-item">University </a>
+          </div>
+          <div class="tabs__content">
+            <div class="tabs__item" id="tab-1">
+              <img class="tabs__img" src="images/colledg.jpg" alt="" />
+              <div class="tabs__inner">
+                <div class="tabs__text">
+                  Name: <span>College of Electronic Devices IFNTUNG</span>
+                </div>
+                <div class="tabs__text">
+                  Degree: <span>Junior Specialist</span>
+                </div>
+                <div class="tabs__text">
+                  Specialty: <span>Software Engineering</span>
+                </div>
+                <div class="tabs__text">Years: <span>2015-2019 </span></div>
+              </div>
+            </div>
+            <div class="tabs__item" id="tab-2">
+              <img class="tabs__img" src="images/university.jpg" alt="" />
+              <div class="tabs__inner">
+                <div class="tabs__text">
+                  Name:
+                  <span
+                    >Ivano-Frankivsk National Technical University of Oil and
+                    Gas</span
+                  >
+                </div>
+                <div class="tabs__text">Degree: <span>Specialist</span></div>
+                <div class="tabs__text">
+                  Specialty: <span>Software Engineering</span>
+                </div>
+                <div class="tabs__text">Years: <span>2019-2022 </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="title">Skills</h2>
+        <div class="skills__inner">
+          <div class="skills__data">
+            <div class="skills__name">Javascript:</div>
+            <progress class="skills__progress" value="70" max="100"></progress>
+            <span class="skills__percent">70%</span>
+          </div>
+          <div class="skills__data">
+            <div class="skills__name">CSS:</div>
+            <progress class="skills__progress" value="80" max="100"></progress>
+            <span class="skills__percent">80%</span>
+          </div>
+          <div class="skills__data">
+            <div class="skills__name">HTML:</div>
+            <progress class="skills__progress" value="90" max="100"></progress>
+            <span class="skills__percent">90%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
